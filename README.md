@@ -262,7 +262,6 @@ fifa-scouting-system/
 ├── FIFA_ML_Assignment3.ipynb   # Main notebook (A2 + A3 full pipeline)
 ├── Fifa.csv                    # Dataset (add locally)
 ├── results.json                # Generated deliverable (CV stability + best params)
-├── requirements.txt
 └── README.md
 ```
 
