@@ -1,0 +1,89 @@
+{
+  "group_members": [
+    {
+      "name": "Ahmed Elsayed",
+      "id": "2401249012"
+    },
+    {
+      "name": "Abdelrahman Mostafa",
+      "id": "2401248938"
+    },
+    {
+      "name": "Mohamed Ahmed",
+      "id": "2401246877"
+    },
+    {
+      "name": "Eslam Kamel",
+      "id": "2401241474"
+    },
+    {
+      "name": "Omar Mahmoud",
+      "id": "2401247898"
+    },
+    {
+      "name": "karem Mohamed",
+      "id": "2401248913"
+    }
+  ],
+  "best_hyperparameters": {
+    "classification": {
+      "KNN": {
+        "metric": "manhattan",
+        "n_neighbors": 5,
+        "weights": "uniform"
+      },
+      "SVM": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "linear"
+      },
+      "RandomForest": {
+        "max_depth": null,
+        "min_samples_split": 5,
+        "n_estimators": 200
+      }
+    },
+    "regression": {
+      "KNN": {
+        "n_neighbors": 5,
+        "weights": "distance"
+      },
+      "SVM": {
+        "C": 10,
+        "epsilon": 0.1,
+        "gamma": "auto"
+      },
+      "RandomForest": {
+        "max_depth": null,
+        "min_samples_split": 2,
+        "n_estimators": 100
+      }
+    }
+  },
+  "cv_stability": {
+    "regression": {
+      "metric": "r2",
+      "mean": 0.956366,
+      "std": 0.004465,
+      "per_fold": [
+        0.951149,
+        0.964392,
+        0.95388,
+        0.955255,
+        0.957156
+      ]
+    },
+    "classification": {
+      "metric": "accuracy",
+      "mean": 0.833344,
+      "std": 0.005566,
+      "per_fold": [
+        0.837305,
+        0.823642,
+        0.839847,
+        0.834075,
+        0.83185
+      ]
+    }
+  }
+}
